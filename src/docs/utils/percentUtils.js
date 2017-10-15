@@ -1,0 +1,1 @@
+export const getWidthAsPercentOfTotalWidth = (width, percent) => parseInt(width * (percent / 100), 10);
