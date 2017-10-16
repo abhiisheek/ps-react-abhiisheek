@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './props.css';
+
 const Props = ({props}) => {
   return (
     <table className="props">
@@ -18,9 +20,9 @@ const Props = ({props}) => {
         Object.keys(props).map(key => {
           return (
             <tr key={key}>
-              <td>{key}</td>
+              <td><code>{key}</code></td>
               <td>{props[key].description}</td>
-              <td>{props[key].type.name}</td>
+              <td><code>{props[key].type.name}</code></td>
               <td>{props[key].defaultValue && props[key].defaultValue.value}</td>
               <td>{props[key].required && "X"}</td>
             </tr>
