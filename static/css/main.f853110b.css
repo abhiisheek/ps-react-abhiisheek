@@ -1,0 +1,117 @@
+.header_wrapper_QjHGX{height:60px;background-color:#0d47a1;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;padding:0 20px;font-size:22px}.header_nav_item_17cfv{list-style:none}.header_nav_achor_1Sani{font-size:16px;color:#fff;text-decoration:none}.header_banner_2tMIu{font-size:22px;color:#fff;text-decoration:none;font-weight:bolder}.navigationItem_wrapper_1WgXe{font-size:18px;padding:10px}.navigationItem_item_CSWfv{text-decoration:none;color:#333}.navigationItem_wrapper_1WgXe:hover{background:#ccc;cursor:pointer}.navigation_navigation_U9dm8{float:left;width:250px;list-style-type:none;padding:0;-webkit-box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);height:inherit}/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA <nllobera@gmail.com>
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1E1E1E;
+  color: #DCDCDC;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-name {
+  color: #569CD6;
+}
+.hljs-link {
+  color: #569CD6;
+  text-decoration: underline;
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: #4EC9B0;
+}
+
+.hljs-number,
+.hljs-class {
+  color: #B8D7A3;
+}
+
+.hljs-string,
+.hljs-meta-string {
+  color: #D69D85;
+}
+
+.hljs-regexp,
+.hljs-template-tag {
+  color: #9A5334;
+}
+
+.hljs-subst,
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula {
+  color: #DCDCDC;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #57A64A;
+  font-style: italic;
+}
+
+.hljs-doctag {
+  color: #608B4E;
+}
+
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-tag {
+  color: #9B9B9B;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #BD63C5;
+}
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-builtin-name {
+  color: #9CDCFE;
+}
+
+.hljs-section {
+  color: gold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/*.hljs-code {
+  font-family:'Monospace';
+}*/
+
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #D7BA7D;
+}
+
+.hljs-addition {
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
+}
+.example_wrapper_3kp_m{padding:10px;background-color:#eee;-webkit-box-shadow:1px 1px 2px 1px hsla(0,0%,67%,.6);box-shadow:1px 1px 2px 1px hsla(0,0%,67%,.6);margin-bottom:10px}.example_title_dhJ98{-ms-flex-pack:justify;justify-content:space-between}.example_showCode_2FNdf,.example_title_dhJ98{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}.example_showCode_2FNdf{height:30px;width:30px;border-radius:15px;border-style:none;background-color:#fff;outline:none;cursor:pointer;-ms-flex-pack:center;justify-content:center;border:1px solid #c5c5c5}.example_codeIcon_HV2O5{fill:#777;height:20px;width:20px}.textInput_textInput_3bSJK{margin-bottom:16px}.textInput_textInput--error_2TcAC{color:red}.textInput_textInput__input--state-error_1WYdX{border:"solid 1px red"}.textInput_fieldset_1Hevg{margin-bottom:16px}.textInput_inputError_1C7az{border:1px solid red}.textInput_error_2dtHE{color:red}td,th{text-align:left;padding:10px}code{background-color:#eee;font-size:16px;padding:2px}.componentPage_wrapper_kAxxs{display:inline-block;margin-left:10px;color:#333;width:calc(100% - 265px);margin-right:5px}.docs_container_3DNnk{position:fixed;width:100%;height:100%}.docs_scroll_view_1aBMa{height:100%;overflow-y:auto}
+/*# sourceMappingURL=main.f853110b.css.map*/
