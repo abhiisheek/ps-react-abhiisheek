@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './props.css';
+import styles from './props.css';
 
-const Props = ({props}) => {
+const Props = ({ props }) => {
   return (
     <table className="props">
       <thead>
@@ -16,23 +16,27 @@ const Props = ({props}) => {
         </tr>
       </thead>
       <tbody>
-      {
-        Object.keys(props).map(key => {
+        {Object.keys(props).map(key => {
           return (
             <tr key={key}>
-              <td><code>{key}</code></td>
+              <td>
+                <code className={styles.code}>{key}</code>
+              </td>
               <td>{props[key].description}</td>
-              <td><code>{props[key].type.name}</code></td>
-              <td>{props[key].defaultValue && props[key].defaultValue.value}</td>
-              <td>{props[key].required && "X"}</td>
+              <td>
+                <code className={styles.code}>{props[key].type.name}</code>
+              </td>
+              <td>
+                {props[key].defaultValue && props[key].defaultValue.value}
+              </td>
+              <td>{props[key].required && 'X'}</td>
             </tr>
           );
-        })
-      }
+        })}
       </tbody>
     </table>
-  )
-}
+  );
+};
 
 Props.propTypes = {
   props: PropTypes.object.isRequired
