@@ -49,7 +49,7 @@ function createPackageFile() {
       } = packageData;
 
       const minimalPackage = {
-        name: 'ps-react',
+        name: 'ps-react-abhiisheek',
         author,
         version,
         description,
